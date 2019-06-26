@@ -11,6 +11,7 @@ import 'bootstrap/dist/css/bootstrap.css'
 import MintUI from 'mint-ui'
 import 'mint-ui/lib/style.css'
 import '../lib/mui-master/dist/css/mui.min.css'
+import '../lib/mui-master/examples/hello-mui/css/icons-extra.css'
 Vue.use(MintUI)
 
 
