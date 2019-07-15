@@ -1,6 +1,6 @@
 <template>
-    <div>
-        <h3>评论子组件</h3>
+    <div class="comment-box">
+        <h3>评论列表</h3>
         <hr>
         <textarea placeholder="限制输入100字" v-model="newcmt"></textarea>
         
@@ -55,6 +55,11 @@ export default {
 </script>
 
 <style scoped>
+.comment-box{
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+}
     .cmt-list{
         font-size: 14px;
         margin-top: 10px;
